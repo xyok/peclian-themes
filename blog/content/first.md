@@ -1,6 +1,9 @@
 Title: first
 Date: 2010-12-03 10:20
-Category: Re
+Category: note
+Tags: git
+Slug: my-super-post
+Authors: xyok
 
 ---
 title: git_note
@@ -10,7 +13,7 @@ tags:
 - tutorial
 ---
 
-# git 笔记
+# git note
 
 ## 0. usage
 
