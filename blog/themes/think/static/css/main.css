@@ -25,6 +25,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
+    background-image: url(http://xyokga.qiniudn.com/background.jpg);
 }
 
 /* Headings */
@@ -86,6 +87,10 @@ ol {
 
 li { margin-top: 0.5em;
      margin-bottom: 1em; }
+     .hfeed li{
+     	margin-top: 0.5em;
+     margin-bottom: 4em;
+     }
 
 .post-info {
     margin:1px;
@@ -101,13 +106,13 @@ li { margin-top: 0.5em;
     margin-bottom: 1px;
 }
 
-.readmore { float: right }
+.readmore { margin-bottom: 25px;}
 
 dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
-pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px; overflow: auto;}
+pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px 0px 10px 0px; overflow: auto;}
 
 /* Quotes */
 blockquote {
@@ -163,7 +168,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 
 	/* Banner */
-	#banner h1 {font-size: 3.571em; line-height: 0; text-align: center;}
+	#banner h1 {font-size: 3rem; line-height: 0; text-align: center;}
+	@media(max-width: 800px){
+		#banner h1 {font-size: 2rem; line-height: 0; text-align: center;}
+	}
 	#banner h1 a:link, #banner h1 a:visited {
 		color: #000305;
 		display: block;
@@ -182,19 +190,19 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	/* Main Nav */
 	#banner nav {
 		background: #000305;
-		width: 90%;
-		max-width: 1080px;
-		font-size: 1.143em;
-		height: 40px;
-		line-height: 30px;
-		margin: 0 auto 2em auto;
-		padding: 0px 18px 0px 18px;
-		text-align: center;
-		/*width: 800px;*/
-		
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
+	    width: 90%;
+	    max-width: 1080px;
+	    font-size: 1.143em;
+	    height: 40px;
+	    line-height: 30px;
+	    margin: 0 auto 1.2rem auto;
+	    padding: 0px 18px 0px 18px;
+	    text-align: center;
+	    /* width: 800px; */
+	    border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    -webkit-border-radius: 1px;
+	    box-shadow: 0px 0px 16px 8px rgba(146, 146, 146, 0.59);
 	}
 	
 	#banner nav ul {list-style: none; margin: 0 auto; }
@@ -234,10 +242,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	padding: 18px 18px;
 	width: 90%;
 	max-width: 1080px;
-	border-radius: 10px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	box-shadow: 0px 0px 30px 3px rgba(204, 204, 204, 0.59);
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	box-shadow: 0px 0px 16px 8px rgba(95, 95, 95, 0.68);
 }
 
 @media (max-width: 800px){
@@ -248,10 +256,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		padding: 0 5px;
 		width: 95%;
 		max-width: 1080px;
-		border-radius: 10px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		box-shadow: 0px 0px 30px 3px rgba(204, 204, 204, 0.59);
+		border-radius: 1px;
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px;
+		box-shadow: 0px 0px 12px 8px rgba(204, 204, 204, 0.59);
 	}
 }
 
@@ -277,12 +285,13 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	background: #fff;
 	margin-bottom: 2em;
 	overflow: hidden;
-	padding: 20px 20px;
-	width: 760px;
-	
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	padding: 18px 18px;
+	width: 90%;
+	max-width: 1080px;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	box-shadow: 0px 0px 16px 8px rgba(95, 95, 95, 0.68);
 }
 
 /*
@@ -326,7 +335,6 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#extras div[class='social'] a {
 		background-repeat: no-repeat;
 		background-position: 3px 6px;
-		padding-left: 25px;
 	}
 	
 		/* Icons */
@@ -398,7 +406,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
-.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
+.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;text-align: center;}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
 .entry-title a:visited {background-color: #fff;}
 
@@ -416,9 +424,9 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#posts-list footer {
 		left: 10px;
 		position: relative;
-        float: left;
+    
 		top: 0.5em;
-		width: 190px;
+	
 	}
 	
 	/* About the Author */
@@ -472,3 +480,9 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+	.bolang{
+  background: -webkit-linear-gradient(315deg, transparent, transparent 45%, red, transparent 55%, transparent 100%),-webkit-linear-gradient(45deg, transparent, transparent 45%, red, transparent 55%, transparent 100%); 
+  background-size: 30px 30px;
+  background-repeat: repeat-x;
+  height: 15px;
+	}
