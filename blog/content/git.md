@@ -1,16 +1,14 @@
-Title: ss
-Date: 2010-12-03 10:20
-Category: note
+Title: Git note
+Date: 2016-09-13 10:20
+Category: NOTE
 Tags: git
 Authors: xyok
 
 ---
-title: git_note
-date: 2016-09-07 18:53:14
-tags: 
-- git 
-- tutorial
----
+
+
+
+![git](https://git-scm.com/images/logo@2x.png)
 
 # git note
 
@@ -486,6 +484,12 @@ usage: git [--version] [--help] [-C <path>] [-c name=value]
     -v, --verbose         冗长输出；必须置于子命令之前
 
 ```
+
+----------
+
+## -1. ref
+
+[git-scm.com/doc](https://git-scm.com/doc)
 
 
 
