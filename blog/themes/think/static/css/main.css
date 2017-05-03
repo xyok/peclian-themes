@@ -288,7 +288,7 @@ article img:hover {
     margin-top: 10px;
     max-width: 100%;
     margin-left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-2px)
+    -webkit-transform: translateX(-50%) translateY(-2px);
     -moz-transform: translateX(-50%) translateY(-2px);
     -ms-transform: translateX(-50%) translateY(-2px);
     transform: translateX(-50%) translateY(-2px);
@@ -307,14 +307,6 @@ article img:hover {
     font-size: 3rem;
     line-height: 0;
     text-align: center;
-}
-
-@media (max-width: 800px) {
-    #banner h1 {
-        font-size: 2rem;
-        line-height: 0;
-        text-align: center;
-    }
 }
 
 #banner h1 a:link, #banner h1 a:visited {
@@ -932,4 +924,16 @@ li:last-child .hentry, #content > .hentry {
     margin: 1rem -1rem;
 }
 
+@media (max-width: 800px) {
+    #banner {
+        margin: 0 auto;
+        padding: 0.1em 0 0 0;
+    }
 
+    #banner h1 {
+        display: none;
+        font-size: 2rem;
+        line-height: 0;
+        text-align: center;
+    }
+}
