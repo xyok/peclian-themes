@@ -282,8 +282,8 @@ article img {
 article img:hover {
     border: 1px solid #ddd;
     /* box-shadow: 0 0 30px #ccc; */
-    -moz-box-shadow: 0 0 18px 6px #ccc;
-    -webkit-box-shadow: 0 0 18px 6px #ccc;
+    -moz-box-shadow: 0 0 6px 6px #ccc;
+    -webkit-box-shadow: 0 0 6px 6px #ccc;
     margin-bottom: 30px;
     margin-top: 10px;
     max-width: 100%;
@@ -402,7 +402,7 @@ article img:hover {
     background: #fff;
     margin-bottom: 2em;
     overflow: hidden;
-    padding: 18px 36px;
+    padding: 18px 32px;
     width: 90%;
     max-width: 1080px;
     border-radius: 1px;
